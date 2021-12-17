@@ -10,15 +10,11 @@ const store = useStore();
 </script>
 <template>
   <div class="container">
-    <span class="title">Optimize</span>
+    <span class="title">Defrag</span>
     <span class="action">
       <span class="contrast"
         >Esc={{ store.state.paused ? "Start" : "Stop" }} Defrag</span
       >
-      <a href="https://github.com/ShipLift-LLC/defrag" target="_blank">
-        <i class="github" />
-        GitHub
-      </a>
     </span>
   </div>
 </template>

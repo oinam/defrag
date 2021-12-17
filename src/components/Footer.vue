@@ -8,7 +8,7 @@ const store = useStore()
 <template>
   <div class="container">
     <span class="title">{{ store.state.bar }}</span>
-    <span class="action"><a href="https://shiplift.io" target="_blank">ShipLift.io Defrag</a></span>
+    <span class="action">Defrag</span>
   </div>
 </template>
 <style scoped>
